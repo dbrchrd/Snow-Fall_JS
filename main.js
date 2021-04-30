@@ -6,7 +6,7 @@ function snowFall() { //initialisation de la fonction de la neige qui tombe
   snowDrop.classList.add("fas"); //importation de fas
   snowDrop.classList.add("fa-snowflake"); //importation de la classe fa-snowflake
   snowDrop.style.fontSize = sw * 7 + "px"; //taille du flocon
-  snowDrop.style.animationDuration = (1/sw) * 5 + "s"; //vitesse du flocon
+  snowDrop.style.animationDuration = (1/sw) *4 + "s"; //vitesse du flocon
   snowDrop.style.opacity = (1/sw) + 0.3; //opacité du flocon
   snowDrop.style.left = Math.random() * window.innerWidth + "px"; //abscisse du flocon
   body.appendChild(snowDrop)
@@ -14,3 +14,4 @@ function snowFall() { //initialisation de la fonction de la neige qui tombe
     snowDrop.remove(); //suppression de l'élément du DOM
   }, 6666); //.. à 6666 millisecondes
 }
+ 
