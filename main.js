@@ -14,4 +14,3 @@ function snowFall() { //initialisation de la fonction de la neige qui tombe
     snowDrop.remove(); //suppression de l'élément du DOM
   }, 6666); //.. à 6666 millisecondes
 }
- 
